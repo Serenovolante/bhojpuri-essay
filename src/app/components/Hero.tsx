@@ -81,11 +81,14 @@ export function Hero() {
           style={{
             display: "inline-flex",
             alignItems: "center",
+            justifyContent: "center",
             gap: "8px",
             border: `1px solid rgba(201,162,39,0.45)`,
-            borderRadius: "100px",
-            padding: "6px 18px",
+            borderRadius: "999px",
+            padding: "8px 16px",
             marginBottom: "24px",
+            maxWidth: "90%",
+            flexWrap: "nowrap",
           }}
         >
           <span
@@ -94,20 +97,24 @@ export function Hero() {
               height: 6,
               borderRadius: "50%",
               backgroundColor: GOLD,
-              display: "inline-block",
+              flexShrink: 0,
             }}
           />
+
           <span
             style={{
               fontFamily: "'Lato', sans-serif",
-              fontSize: "0.72rem",
-              letterSpacing: "0.15em",
+              fontSize: "clamp(0.58rem, 1.8vw, 0.72rem)",
+              letterSpacing: "0.08em",
               color: GOLD_LIGHT,
               textTransform: "uppercase",
               fontWeight: 700,
+              whiteSpace: "nowrap",
+              lineHeight: 1.2,
+              textAlign: "center",
             }}
           >
-            Safe Sea Group &nbsp;·&nbsp; Official Announcement
+            Safe Sea Group · Official Announcement
           </span>
         </motion.div>
 
