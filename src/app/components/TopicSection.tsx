@@ -157,35 +157,28 @@ export function TopicSection() {
           <div
             style={{
               marginTop: "24px",
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "10px",
-              padding: "10px 20px",
+              display: "inline-block",
+              padding: "14px 24px",
               border: `1px solid rgba(123,26,46,0.25)`,
-              borderRadius: "100px",
+              borderRadius: "999px",
               backgroundColor: "rgba(123,26,46,0.05)",
+              maxWidth: "90%",
             }}
           >
-            <span
+            <p
               style={{
-                width: 6,
-                height: 6,
-                borderRadius: "50%",
-                backgroundColor: MAROON,
-                display: "inline-block",
-              }}
-            />
-            <span
-              style={{
+                margin: 0,
                 fontFamily: "'Lato', sans-serif",
-                fontSize: "0.8rem",
+                fontSize: "clamp(0.8rem, 2vw, 0.95rem)",
                 color: "#5C3D2E",
-                letterSpacing: "0.04em",
+                textAlign: "center",
+                lineHeight: 1.6,
               }}
             >
-              Maximum word limit: <strong style={{ color: "#2C1810" }}>3,000 words</strong>
-              &nbsp;·&nbsp; Deadline: <strong style={{ color: "#2C1810" }}>30 June 2026</strong>
-            </span>
+              Maximum word limit: <strong>3,000 words</strong>
+              <br />
+              Deadline: <strong>30 June 2026</strong>
+            </p>
           </div>
         </FadeInView>
       </div>
