@@ -254,22 +254,9 @@ export function GlanceSection() {
             >
               <p
                 style={{
-                  fontFamily: "'Lato', sans-serif",
-                  fontSize: "0.7rem",
-                  letterSpacing: "0.14em",
-                  textTransform: "uppercase",
-                  color: "rgba(201,162,39,0.7)",
-                  marginBottom: "4px",
-                  fontWeight: 700,
-                }}
-              >
-                Also Awarded
-              </p>
-              <p
-                style={{
                   fontFamily: "'Playfair Display', serif",
                   color: TEXT_ON_DARK,
-                  fontSize: "0.95rem",
+                  fontSize: "0.82rem", // was 0.95rem
                   lineHeight: 1.5,
                 }}
               >
