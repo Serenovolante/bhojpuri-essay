@@ -201,7 +201,8 @@ export function Hero() {
           className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-10"
         >
           <a
-            href="mailto:bhojpuriessay@gmail.com?subject=Request for Competition Notice PDF"
+            href="/notice.pdf"
+            download="Bhojpuri-Essay-Competition-2026.pdf"
             style={{
               display: "inline-flex",
               alignItems: "center",
