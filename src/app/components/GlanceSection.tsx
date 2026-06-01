@@ -154,23 +154,25 @@ export function GlanceSection() {
         </FadeInView>
 
         {/* Info cards */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-w-5xl mx-auto">
           <InfoCard
             icon={<Calendar size={28} />}
             label="Last Date"
             value="30 June 2026"
             delay={0}
           />
+
           <InfoCard
             icon={<AlignLeft size={28} />}
             label="Maximum Length"
             value="3,000 Words"
             delay={0.05}
           />
+
           <InfoCard
             icon={<Globe size={28} />}
             label="Languages Accepted"
-            value="Bhojpuri · Hindi · English"
+            value="Bhojpuri, Hindi, English"
             delay={0.1}
           />
         </div>
