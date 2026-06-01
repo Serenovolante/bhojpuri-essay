@@ -269,10 +269,12 @@ export function GlanceSection() {
                 style={{
                   fontFamily: "'Playfair Display', serif",
                   color: TEXT_ON_DARK,
-                  fontSize: "0.95rem",
+                  fontSize: "0.8rem",
+                  lineHeight: 1.4,
+                  wordBreak: "break-word",
                 }}
               >
-                Participation &amp; Appreciation Certificates
+                Participation & Appreciation Certificates
               </p>
             </div>
           </div>
